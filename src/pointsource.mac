@@ -1,0 +1,14 @@
+
+/run/initialize
+/control/verbose  0
+/run/verbose 0
+/event/verbose    0
+/tracking/verbose 0
+
+/gps/particle gamma
+/gps/pos/type Point
+/gps/pos/centre 0. 0. 1. cm
+/gps/ang/type iso
+/gps/energy 1.3 MeV
+
+/run/beamOn 1000000

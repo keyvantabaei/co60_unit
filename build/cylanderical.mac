@@ -1,0 +1,32 @@
+
+
+/run/initialize
+/control/verbose  0
+/run/verbose 0
+/event/verbose    0
+/tracking/verbose 0
+
+
+
+/gps/particle gamma
+/gps/pos/type Volume
+/gps/pos/shape Cylinder
+/gps/pos/centre 0 0 0.5 cm
+/gps/pos/radius 1.5 cm
+/gps/pos/halfz 0.5 cm
+/gps/ang/type iso
+/gps/energy 1.33 MeV
+
+
+/gps/source/add 1
+/gps/particle gamma
+/gps/pos/type Volume
+/gps/pos/shape Cylinder
+/gps/pos/centre 0 0 0.5 cm
+/gps/pos/radius 1.5 cm
+/gps/pos/halfz 0.5 cm
+/gps/ang/type iso
+/gps/energy 1.17 MeV
+
+
+/run/beamOn 2000000
